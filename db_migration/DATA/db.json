@@ -1,0 +1,302 @@
+{
+    "companies": [
+        {
+            "name": "Photosnap",
+            "logo": "./images/photosnap.svg",
+            "location": "US",
+            "adress": "2235 Sycamore Fork Road",
+            "website": "https://overjoyed-handful.org/",
+            "phone": "657.469.3065 x1154",
+            "jobs": [
+                {
+                    "position": "Software Engineer",
+                    "role": "Fullstack",
+                    "level": "Midweight",
+                    "location": "Worldwide",
+                    "contractType": "Full Time",
+                    "technologies": [
+                        {
+                            "name": "HTML",
+                            "value": "html"
+                        },
+                        {
+                            "name": "CSS",
+                            "value": "css"
+                        },
+                        {
+                            "name": "JavaScript",
+                            "value": "javascript"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Manage",
+            "logo": "./images/manage.svg",
+            "location": "DE",
+            "adress": "Genslerstraße 59",
+            "website": "https://nautical-settlement.biz",
+            "phone": "730.824.6958 x6327",
+            "jobs": [
+                {
+                    "position": "Fullstack Developer",
+                    "role": "Fullstack",
+                    "level": "Midweight",
+                    "location": "Remote",
+                    "contractType": "Part Time",
+                    "technologies": [
+                        {
+                            "name": "Python",
+                            "value": "python"
+                        },
+                        {
+                            "name": "React",
+                            "value": "react"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Account",
+            "logo": "./images/account.svg",
+            "location": "US",
+            "adress": "1273 Bridge Avenue",
+            "website": "https://giddy-identity.name",
+            "phone": "633-576-3125 x6498",
+            "jobs": [
+                {
+                    "position": "Junior Frontend Developer",
+                    "role": "Frontend",
+                    "level": "Junior",
+                    "location": "US",
+                    "contractType": "Part Time",
+                    "technologies": [
+                        {
+                            "name": "JavaScript",
+                            "value": "javascript"
+                        },
+                        {
+                            "name": "React",
+                            "value": "react"
+                        },
+                        {
+                            "name": "Sass",
+                            "value": "sass"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MyHome",
+            "logo": "./images/myhome.svg",
+            "location": "US",
+            "adress": "4768 Essex Court",
+            "website": "https://tidy-kick.net/",
+            "phone": "(201) 531-0036",
+            "jobs": [
+                {
+                    "position": "Junior Frontend Developer",
+                    "role": "Frontend",
+                    "level": "Junior",
+                    "location": "US",
+                    "contractType": "Contract",
+                    "technologies": [
+                        {
+                            "name": "CSS",
+                            "value": "css"
+                        },
+                        {
+                            "name": "JavaScript",
+                            "value": "javascript"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Loop Studios",
+            "logo": "./images/loop-studios.svg",
+            "location": "FR",
+            "adress": "7 Quai des Belges",
+            "website": "https://untrue-dolman.name/",
+            "phone": "1-450-451-4735 x790",
+            "jobs": [
+                {
+                    "position": "Software Engineer",
+                    "role": "Fullstack",
+                    "level": "Midweight",
+                    "location": "Worldwide",
+                    "contractType": "Full Time",
+                    "technologies": [
+                        {
+                            "name": "JavaScript",
+                            "value": "javascript"
+                        },
+                        {
+                            "name": "Sass",
+                            "value": "sass"
+                        },
+                        {
+                            "name": "Ruby",
+                            "value": "ruby"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "FaceIt",
+            "logo": "./images/faceit.svg",
+            "location": "UK",
+            "adress": "87 Spilman Street",
+            "website": "https://critical-sulfur.biz/",
+            "phone": "(223) 662-8081",
+            "jobs": [
+                {
+                    "position": "Junior Backend Developer",
+                    "role": "Backend",
+                    "level": "Junior",
+                    "location": "UK",
+                    "contractType": "Full Time",
+                    "technologies": [
+                        {
+                            "name": "Ruby",
+                            "value": "ruby"
+                        },
+                        {
+                            "name": "RoR",
+                            "value": "ror"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shortly",
+            "logo": "./images/shortly.svg",
+            "location": "FR",
+            "adress": "98 Faubourg Saint Honoré",
+            "website": "https://tiny-gray.biz/",
+            "phone": "(397) 501-4053 x135",
+            "jobs": [
+                {
+                    "position": "Junior Developer",
+                    "role": "Frontend",
+                    "level": "Junior",
+                    "location": "Worldwide",
+                    "contractType": "Full Time",
+                    "technologies": [
+                        {
+                            "name": "HTML",
+                            "value": "html"
+                        },
+                        {
+                            "name": "Sass",
+                            "value": "sass"
+                        },
+                        {
+                            "name": "JavaScript",
+                            "value": "javascript"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Insure",
+            "logo": "./images/insure.svg",
+            "location": "US",
+            "adress": "2706 Rardin Drive",
+            "website": "https://unused-content.info",
+            "phone": "623-334-2464 x525",
+            "jobs": [
+                {
+                    "position": "Junior Frontend Developer",
+                    "role": "Frontend",
+                    "level": "Junior",
+                    "location": "US",
+                    "contractType": "Full Time",
+                    "technologies": [
+                        {
+                            "name": "JavaScript",
+                            "value": "javascript"
+                        },
+                        {
+                            "name": "Sass",
+                            "value": "sass"
+                        },
+                        {
+                            "name": "Vue",
+                            "value": "vue"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eyecam Co.",
+            "logo": "./images/eyecam-co.svg",
+            "location": "US",
+            "adress": "4505 Ella Street",
+            "website": "https://nice-beyond.biz",
+            "phone": "1-304-264-8411 x756",
+            "jobs": [
+                {
+                    "position": "Full Stack Engineer",
+                    "role": "Fullstack",
+                    "level": "Midweight",
+                    "location": "Worldwide",
+                    "contractType": "Full Time",
+                    "technologies": [
+                        {
+                            "name": "JavaScript",
+                            "value": "javascript"
+                        },
+                        {
+                            "name": "Python",
+                            "value": "python"
+                        },
+                        {
+                            "name": "Django",
+                            "value": "django"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Air Filter Company",
+            "logo": "./images/the-air-filter-company.svg",
+            "location": "DE",
+            "adress": "Feldstrasse 25",
+            "website": "https://burdensome-cummerbund.info",
+            "phone": "(936) 971-4674",
+            "jobs": [
+                {
+                    "position": "Front-end Dev",
+                    "role": "Frontend",
+                    "level": "Junior",
+                    "location": "Worldwide",
+                    "contractType": "Part Time",
+                    "technologies": [
+                        {
+                            "name": "JavaScript",
+                            "value": "javascript"
+                        },
+                        {
+                            "name": "React",
+                            "value": "react"
+                        },
+                        {
+                            "name": "Sass",
+                            "value": "sass"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
