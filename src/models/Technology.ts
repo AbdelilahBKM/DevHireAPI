@@ -9,8 +9,8 @@ export interface ITechnologyModel extends ITechnology, Document {}
 
 const TechnologySchema: Schema = new Schema(
     {
-        name: { type: String, required: true, unique: true },
-        value: { type: String, required: true, unique: true }
+        name: { type: String, required: true },
+        value: { type: String, required: true }
     },
     {
         versionKey: false

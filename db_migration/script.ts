@@ -20,6 +20,7 @@ interface JobData {
     location: string;
     contractType: string;
     technologies: TechnologyData[];
+    company: string;
 }
 
 interface CompanyData {
@@ -59,7 +60,7 @@ async function populateDataBase(companies: CompanyData[]): Promise<void> {
                         technologies.map(async (tech: TechnologyData) => {
                             console.log(tech);
                             const existingTech = await Technology.findOne({ value: tech.value });
-                            if (existingTech == null) {
+                            if (!existingTech) {
                                 const technology = new Technology({
                                     _id: new mongoose.Types.ObjectId(),
                                     name: tech.name,
@@ -92,8 +93,16 @@ async function populateDataBase(companies: CompanyData[]): Promise<void> {
                     website: company.website,
                     phone: company.phone,
                     jobs: jobIds
-                }); // Not sure what you intend to do with this // me neither
+                });
                 data.save();
+                for (const jobId of jobIds) {
+                    const job = await Job.findById(jobId);
+                    if (!job) {
+                        throw new Error('Job not found');
+                    }
+                    job.company = data._id;
+                    await job.save();
+                }
             })
         );
         console.log('Data population completed');
