@@ -1,6 +1,5 @@
 import mongoose, { Schema, Document } from 'mongoose';
 import Technology, { ITechnology } from './Technology';
-import { ref } from 'joi';
 
 export interface IJob {
     position: string;
@@ -8,8 +7,10 @@ export interface IJob {
     level: string;
     location: string;
     contractType: string;
-    technologies: string[];
-    company: string;
+    technologies: mongoose.Types.ObjectId[];
+    company: mongoose.Types.ObjectId;
+    created_at: Date;
+    updated_at: Date;
 }
 
 export interface IJobModel extends IJob, Document {}
@@ -22,7 +23,9 @@ const JobSchema: Schema = new Schema(
         location: { type: String, required: true },
         contractType: { type: String, required: true },
         technologies: [{ type: Schema.Types.ObjectId, ref: 'Technology' }],
-        company: { type: Schema.Types.ObjectId, ref: 'Company' }
+        company: { type: Schema.Types.ObjectId, ref: 'Company' },
+        created_at: { type: Date, default: Date.now },
+        updated_at: { type: Date, default: Date.now }
     },
     {
         versionKey: false

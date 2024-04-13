@@ -9,10 +9,12 @@ export interface ICompany {
     adress: string;
     website: string;
     phone: string;
-    jobs: IJob[];
+    jobs: mongoose.Types.ObjectId[];
+    created_at: Date;
+    updated_at: Date;
 }
 
-export interface IJobModel extends IJob, Document {}
+export interface ICompanyModel extends ICompany, Document {}
 
 const CompanySchema: Schema = new Schema(
     {
@@ -22,11 +24,13 @@ const CompanySchema: Schema = new Schema(
         adress: { type: String, required: true },
         website: { type: String, required: true, unique: true },
         phone: { type: String, required: true, unique: true },
-        jobs: [{ type: Schema.Types.ObjectId, ref: 'Job' }]
+        jobs: [{ type: Schema.Types.ObjectId, ref: 'Job' }],
+        created_at: { type: Date, default: Date.now },
+        updated_at: { type: Date, default: Date.now }
     },
     {
         versionKey: false
     }
 );
 
-export default mongoose.model<IJobModel>('Company', CompanySchema);
+export default mongoose.model<ICompanyModel>('Company', CompanySchema);
