@@ -37,6 +37,10 @@ const start_server = () => {
     });
 
     // routers
+    router.get('/home', (req, res, next) => {
+        res.status(201).json({ message: 'DevHire API withe expressjs and mongodb' });
+    });
+
     router.use('/Technology', TechnologyRoutes);
     router.use('/Job', JobRoutes);
     router.use('/Company', CompanyRoutes);
